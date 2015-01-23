@@ -2,23 +2,10 @@
 
 ######## Automate Git Master Build Script - ZNC on Ubuntu 14.04 ########
 
+SCRIPT_VERSION="0.1"
+
 SCRIPT_DESIGNED_FOR_ZNC_VERSION="1.5-git (pre-1.6)"
 
-
-# ***** Change this value to build and run this script! ***** #
-EVIL=665;   # Default = 666
-
-if [ "$EVIL" -eq "666" ]; then
-    echo "666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666"
-    echo "666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666"
-    echo "666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666"
-    echo "666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666"
-    echo "666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666"
-    echo "666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666"
-    echo 
-    echo "Error 666."
-    exit 6;
-fi
 
 ##### VARIABLES #####
 ## Location of where the `znc` folder will be made on git clone
