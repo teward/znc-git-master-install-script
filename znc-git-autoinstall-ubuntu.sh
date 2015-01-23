@@ -97,6 +97,9 @@ if $ENABLE_CYRUS; then
 fi
 
 
+##### Install `add-apt-repository` #####
+sudo apt-get install -y software-properties-common python-software-properties
+
 ##### Determine if extra PPAs are needed. #####
 
 #### gcc-4.7 ####
