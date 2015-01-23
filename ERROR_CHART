@@ -9,7 +9,7 @@ zero exit code means nothing bad went wrong with the script itself):
 +------+---------------------------------------------+
 | CODE |  DESCRIPTION OF PROBLEM                     |
 +------+---------------------------------------------+
-|   1  |  You aren't using Ubuntu.  This script is   |
+|   1  |  You aren't using Ubuntu.This script is     |
 |      |  only designed to work on Ubuntu.           |
 +------+---------------------------------------------+
 |   2  |  You are on a very old version of Ubuntu    |
@@ -17,4 +17,10 @@ zero exit code means nothing bad went wrong with the script itself):
 |      |  use ZNC git master on your release. As     |
 |      |  such, this script will not run at all      |
 |      |  on your release (to prevent evil things).  |
++------+---------------------------------------------+
+|   3  |  You are on an architecture other than      |
+|      |  i386 or amd64. Unfortunately, the PPAs     |
+|      |  in this script are limited and cannot be   |
+|      |  used with alternate architectures at this  |
+|      |  time.                                      |
 +------+---------------------------------------------+
