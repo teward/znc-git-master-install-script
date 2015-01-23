@@ -24,7 +24,8 @@ ZNC Git Master: 1.5-git (pre-1.6)
 Minimum Ubuntu Version Required.: 12.04
 
 
-
+If you have an issue with this script, please report the issue here:
+https://github.com/teward/znc-git-master-install-script/issues
 
 
 This script is released under the Apache 2.0 license.
