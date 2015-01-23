@@ -212,7 +212,7 @@ echo "is actually at a different location and version. So, we have to run the "
 echo "following commands MANUALLY in **another terminal window** before we can"
 echo "continue on and build the software."
 echo 
-echo "sudo update-alternatives --config gcc"
+echo "sudo update-alternatives --config g++"
 echo 
 echo "At this window, the system will prompt you to select which compiler to "
 echo "use. We said to take note of what it was set to before. Set it to what it"
