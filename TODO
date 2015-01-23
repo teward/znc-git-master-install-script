@@ -4,3 +4,6 @@ List of to-dos:
 * Check if the software is already installed in the system before running the
   apt-get commands.
 * Check if the ZNC directory exists already or not, remove if it does.
+* Check if the already installed GCC/G++ version is 4.7+.  If it is newer than
+  4.7, don't force it to be installed.  If it is 4.7, do nothing.  If older, 
+  then we need to install at least 4.7.
