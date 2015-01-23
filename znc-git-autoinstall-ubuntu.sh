@@ -9,7 +9,7 @@ SCRIPT_DESIGNED_FOR_ZNC_VERSION="1.5-git (pre-1.6)"
 
 ##### VARIABLES #####
 ## Location of where the `znc` folder will be made on git clone
-GIT_FOLDER_PARENT_LOCATION="/home/teward/testscripting/"
+GIT_FOLDER_PARENT_LOCATION="/home/$USER/"
 GIT_FOLDER_ACTUAL_LOCATION="$GIT_FOLDER_PARENT_LOCATION/znc"
 
 ## Feature enablement flags.
