@@ -1,6 +1,6 @@
 # ZNC Git Master Helper Script
 
-## Install Git Master and Dependencies on Ubuntu by default.
+## Install Git Master and Dependencies on Ubuntu automatically!
 
 This is an Installation Helper Script to install Git Master on Ubuntu.
 
