@@ -131,6 +131,8 @@ if $ENABLE_PERL || $ENABLE_PYTHON; then
     sudo add-apt-repository -y ppa:teward/swig3.0
 fi
 
+echo "Updating apt data..."
+sudo apt-get update
 
 #### INSTALL PACKAGES (Dependencies)
 echo "Installing build dependencies via \`apt-get\`..."
