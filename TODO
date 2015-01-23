@@ -1,0 +1,6 @@
+List of to-dos:
+
+* Check if a PPA already exists in the system before adding it.
+* Check if the software is already installed in the system before running the
+  apt-get commands.
+* Check if the ZNC directory exists already or not, remove if it does.
