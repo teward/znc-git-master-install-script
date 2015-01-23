@@ -34,6 +34,9 @@ Minimum Ubuntu Version Required.: 12.04
 If you have an issue with this script, please report the issue here:
 https://github.com/teward/znc-git-master-install-script/issues
 
+If you have a code change you would like to suggest, then please fork 
+this repository on Github, and file a pull request.
+
 ------
 
 This script is released under the Apache 2.0 license.
