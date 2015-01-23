@@ -50,15 +50,7 @@ fi
 # (3) PPA arch limitations.
 ARCHITECTURE=$(uname -m)
 
-if [[ "$ARCHITECTURE" != "x86_64" ]]; then
-    if [[ "$ARCHITECTURE" != "x86" ]];; then
-        echo "The PPA dependencies here are x86 or x64 environments.  Alternate"
-        echo "architectures (such as ARM or PowerPC) are not supported in this "
-        echo "script at this time."
-        echo
-        echo "Script exited with error, code: 3"
-        
-        exit 3;
+if [[ "$ARCHITECTURE" != "x86_64" ]] || [[ "$ARCHITECTURE" != "i386" ]] || [[ "$ARCHITECTURE" != "i686" ]] || [[ "$ARCHITECTURE" != "x86" ]]; then
     fi
 fi
 
