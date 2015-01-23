@@ -22,6 +22,10 @@ of ZNC (pre 1.6).
 
 To use it, simply run the included .sh script.  It is a Bash script.
 
+***LIMITATION:*** Unfortuantely this relies on PPAs.  These PPAs do not have support 
+for any architecture other than i386 and amd64 at this time.  This script, therefore, 
+cannot be used on non-standard architecture (such as ARM or PowerPC) at this time.
+
 ------
 
 The current compatibility version for this script is as follows:
