@@ -2,7 +2,7 @@
 
 ######## Automate Git Master Build Script - ZNC on Ubuntu 14.04 ########
 
-SCRIPT_VERSION="0.1"
+SCRIPT_VERSION="0.2"
 
 SCRIPT_DESIGNED_FOR_ZNC_VERSION="1.5-git (pre-1.6)"
 
