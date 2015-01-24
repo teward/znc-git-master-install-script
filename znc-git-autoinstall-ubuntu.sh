@@ -127,7 +127,7 @@ sudo apt-get install -y software-properties-common python-software-properties
 ## If the Ubuntu version number is smaller than 14.04, then you need this
 ## other PPA in order to get gcc-4.7 from it.  Trusty (14.04) and newer
 ## already have gcc-4.7 in the repositories.
-if [[ "$UBUNTU_VERSION" < "14.04" ]]; then
+if [[ "$UBUNTU_VERSION" < "14.04" ]] && ! $IS_ARCH_ARM; then
     echo "Adding PPA for gcc-4.7..."
     sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
 fi
