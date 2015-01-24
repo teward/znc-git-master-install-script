@@ -19,8 +19,8 @@ zero exit code means nothing bad went wrong with the script itself):
 |      |  on your release (to prevent evil things).  |
 +------+---------------------------------------------+
 |   3  |  You are on an architecture other than      |
-|      |  i386 or amd64. Unfortunately, the PPAs     |
-|      |  in this script are limited and cannot be   |
-|      |  used with alternate architectures at this  |
-|      |  time.                                      |
+|      |  i386, amd64, or armhf. Unfortunately, the  |
+|      |  PPAs used in this script are limited and   |
+|      |  cannot used with any other architectures   |
+|      |  than i386, amd64, or armhf.                |
 +------+---------------------------------------------+
