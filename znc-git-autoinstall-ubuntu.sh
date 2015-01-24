@@ -49,8 +49,17 @@ fi
 
 # (3) PPA arch limitations.
 ARCHITECTURE=$(uname -m)
+if [[ $ARCHITECTURE == arm* ]]; then
+    IS_ARCH_ARM=true
+fi
 
 if [[ "$ARCHITECTURE" != "x86_64" ]] || [[ "$ARCHITECTURE" != "i386" ]] || [[ "$ARCHITECTURE" != "i686" ]] || [[ "$ARCHITECTURE" != "x86" ]]; then
+    if ! $IS_ARCH_ARM; then
+        echo "This script and PPAs do not work with anything that is not"
+        echo "x86 (i386/i686), x86_64 (amd64), or arm (armhf)."
+        echo
+        echo "Script exited with error, code: 3"
+        exit 3
     fi
 fi
 
