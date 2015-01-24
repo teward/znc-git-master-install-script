@@ -24,3 +24,8 @@ zero exit code means nothing bad went wrong with the script itself):
 |      |  cannot used with any other architectures   |
 |      |  than i386, amd64, or armhf.                |
 +------+---------------------------------------------+
+|   4  |  You are on a release of Ubuntu that is     |
+|      |  older than 14.04, and trying to use armhf. |
+|      |  armhf is supported only in 14.04+ in this  |
+|      |  script due to swig3.0 compatibility.       |
++------+---------------------------------------------+
